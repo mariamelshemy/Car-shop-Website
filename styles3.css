@@ -1,0 +1,14 @@
+.box {
+   
+    transform: translateX(200%);
+    transition: transform 0.4s ease-in;
+  }
+  
+.box:nth-of-type(even) {
+    transform: translateX(-200%);
+    background-color: lightgray;
+  }
+  
+.box.show {
+    transform: translateX(0);
+  }
